@@ -1,0 +1,35 @@
+
+.header__inner{
+  box-sizing: border-box;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+}
+
+.header__ttl{
+  display: inline-block;
+  color: #000080;
+  font-size: 25px;
+  font-weight: bold;
+  background: blue;
+  /* padding: 10px 0 0 0; */
+  vertical-align: middle;
+}
+
+nav{
+  background: red;
+  display: flex;
+  justify-content: flex-end;
+}
+
+li{
+  display: inline-block;
+  margin-left: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: #000080;
+  font-weight: bold;
+}
